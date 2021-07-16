@@ -130,7 +130,9 @@
 	/* 演習1 ここから */
 
 	//足し算
-	function add(){}
+	function add(){
+		eqlNum.value = parseFloat(midNum[0].value) + parseFloat(midNum[1].value);
+	}
 	//引き算
 	function sub(){}
 
